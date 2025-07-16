@@ -1,0 +1,556 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-felixtitling {
+  font-family: "Felix Titling";
+}
+
+h1 {
+  font-size: 85px;
+  font-family: "Felix Titling";
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Felix Titling";
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.text-lightgray {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-lightgray {
+  background-color: #f5f7f9;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.my-12 {
+  margin: 0 12px;
+}
+
+.my-15 {
+  margin: 0 15px;
+}
+
+.mx-30 {
+  margin: 30px 0;
+}
+
+.leading-4px {
+  letter-spacing: -0.4px;
+}
+
+.leading-8px {
+  letter-spacing: -0.8px;
+}
+
+.leading-32px {
+  letter-spacing: -0.32px;
+}
+
+.leading-72px {
+  letter-spacing: -0.72px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+/* navbar */
+.bg-navbar {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-button {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.Logo {
+  font-size: 20px;
+}
+
+/* HERO SECTION */
+.btn-primary {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.btn-secondary {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  border: 1px solid #fff;
+}
+
+.background-image {
+  background-image: url("/images/Frame.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.bg-blur {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    rgba(255, 255, 255, 0.5);
+}
+
+/* partner section */
+
+/* properties section */
+.slider-content {
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.slider-content-active {
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 320px 16px 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+/* Trusted section */
+.bg-card {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Category Section */
+.category {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.category-content {
+  padding: 30px 30px 30px 22px;
+  color: black;
+  font-weight: 500;
+}
+
+/* Testimonial section */
+
+/* NewsLetter section */
+
+/* Footer */
+.social-icons aspect-square Image {
+  height: 80px;
+  width: 80px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1023.97px) {
+  .btn-primary {
+    padding: 14px 28px;
+  }
+  .py-100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .pb-100 {
+    padding-bottom: 80px;
+  }
+  .h-600 {
+    height: 650px;
+  }
+  .Logo {
+    font-size: 20px;
+  }
+  body {
+    font-size: 19px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  .fs-16 {
+    font-size: 15px;
+  }
+
+  .py-100 {
+    padding: 85px 0;
+  }
+
+  .pb-100 {
+    padding-bottom: 85px;
+  }
+
+  .mt-50 {
+    margin-top: 45px;
+  }
+
+  .mb-50 {
+    margin-bottom: 45px;
+  }
+
+  .mb-30 {
+    margin-bottom: 28px;
+  }
+
+  .mb-20 {
+    margin-bottom: 18px;
+  }
+
+  .my-12 {
+    margin: 0 11px;
+  }
+
+  .my-15 {
+    margin: 0 14px;
+  }
+
+  .mx-30 {
+    margin: 28px 0;
+  }
+
+  .leading-4px {
+    letter-spacing: -0.45px;
+  }
+
+  .leading-8px {
+    letter-spacing: -0.85px;
+  }
+
+  .leading-32px {
+    letter-spacing: -0.4px;
+  }
+
+  .leading-72px {
+    letter-spacing: -0.8px;
+  }
+}
+
+@media screen and (max-width: 991.97px) {
+  .btn-primary {
+    padding: 13px 26px;
+  }
+  .Logo {
+    font-size: 20px;
+  }
+  .py-100 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+  .h-600 {
+    height: 600px;
+  }
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 43px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .fs-16 {
+    font-size: 15px;
+  }
+
+  .py-100 {
+    padding: 70px 0;
+  }
+
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+
+  .mt-50 {
+    margin-top: 43px;
+  }
+
+  .mb-50 {
+    margin-bottom: 43px;
+  }
+
+  .mb-30 {
+    margin-bottom: 27px;
+  }
+
+  .mb-20 {
+    margin-bottom: 17px;
+  }
+
+  .my-12 {
+    margin: 0 10px;
+  }
+
+  .my-15 {
+    margin: 0 13px;
+  }
+
+  .mx-30 {
+    margin: 27px 0;
+  }
+
+  .leading-4px {
+    letter-spacing: -0.5px;
+  }
+
+  .leading-8px {
+    letter-spacing: -0.9px;
+  }
+
+  .leading-32px {
+    letter-spacing: -0.5px;
+  }
+
+  .leading-72px {
+    letter-spacing: -0.9px;
+  }
+}
+
+@media screen and (max-width: 767.97px) {
+  .btn-primary {
+    padding: 12px 24px;
+  }
+  .Logo {
+    font-size: 20px;
+  }
+  .py-100 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  .pb-100 {
+    padding-bottom: 65px;
+  }
+  .h-600 {
+    height: 450px;
+  }
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  .fs-16 {
+    font-size: 14px;
+  }
+
+  .py-100 {
+    padding: 60px 0;
+  }
+
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+
+  .mt-50 {
+    margin-top: 40px;
+  }
+
+  .mb-50 {
+    margin-bottom: 40px;
+  }
+
+  .mb-30 {
+    margin-bottom: 26px;
+  }
+
+  .mb-20 {
+    margin-bottom: 16px;
+  }
+
+  .my-12 {
+    margin: 0 9px;
+  }
+
+  .my-15 {
+    margin: 0 12px;
+  }
+
+  .mx-30 {
+    margin: 26px 0;
+  }
+
+  .leading-4px {
+    letter-spacing: -0.55px;
+  }
+
+  .leading-8px {
+    letter-spacing: -0.95px;
+  }
+
+  .leading-32px {
+    letter-spacing: -0.6px;
+  }
+
+  .leading-72px {
+    letter-spacing: -1.1px;
+  }
+}
+
+@media screen and (max-width: 575.97px) {
+  .btn-primary {
+    padding: 11px 22px;
+  }
+  .Logo {
+    font-size: 20px;
+  }
+  .py-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .h-600 {
+    height: 450px;
+  }
+  body {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .fs-16 {
+    font-size: 14px;
+  }
+
+  .py-100 {
+    padding: 40px 0;
+  }
+
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+
+  .mt-50 {
+    margin-top: 38px;
+  }
+
+  .mb-50 {
+    margin-bottom: 38px;
+  }
+
+  .mb-30 {
+    margin-bottom: 25px;
+  }
+
+  .mb-20 {
+    margin-bottom: 15px;
+  }
+
+  .my-12 {
+    margin: 0 8px;
+  }
+
+  .my-15 {
+    margin: 0 11px;
+  }
+
+  .mx-30 {
+    margin: 25px 0;
+  }
+
+  .leading-4px {
+    letter-spacing: -0.6px;
+  }
+
+  .leading-8px {
+    letter-spacing: -1px;
+  }
+
+  .leading-32px {
+    letter-spacing: -0.7px;
+  }
+
+  .leading-72px {
+    letter-spacing: -1.2px;
+  }
+}

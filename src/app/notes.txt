@@ -1,0 +1,79 @@
+20 18 17 16 15 body {
+  font-size: 20px;
+}
+
+85 70 60 50 45 h1 {
+  font-size: 85px;
+}
+
+50 45 43 40 38 h2 {
+  font-size: 50px;
+}
+
+25 23 22 21 20 h3 {
+  font-size: 25px;
+}
+
+16 15 15 14 14 .fs-16 {
+  font-size: 16px;
+}
+
+100 85 70 60 40 .py-100 {
+  padding: 100px 0;
+}
+
+100 85 70 60 40 .pb-100 {
+  padding-bottom: 100px;
+}
+
+50 45 43 40 38 .mt-50 {
+  margin-top: 50px;
+}
+
+50 45 43 40 38 .mb-50 {
+  margin-bottom: 50px;
+}
+
+30 28 27 26 25 .mb-30 {
+  margin-bottom: 30px;
+}
+
+20 18 17 16 15 .mb-20 {
+  margin-bottom: 20px;
+}
+
+12 11 10 9 8 .my-12 {
+  margin: 0 12px;
+}
+
+15 14 13 12 11 .my-15 {
+  margin: 0 15px;
+}
+
+30 28 27 26 25 .mx-30 {
+  margin: 30px 0;
+}
+
+80px 75px 70px 65px 60px .line-height-80 {
+  line-height: 80px;
+}
+
+100px 90px 80px 75px 70px .line-height-100 {
+  line-height: 100px;
+}
+
+0.4 0.45 0.50 0.55 0.60 .leading-4px {
+  letter-spacing: -0.4px;
+}
+
+0.8 0.85 0.90 0.95 1 .leading-8px {
+  letter-spacing: -0.8px;
+}
+
+0.32 0.40 0.50 0.6 0.7 .leading-32px {
+  letter-spacing: -0.32px;
+}
+
+0.80 0.85 0.90 1 1.10 1.20 .leading-72px {
+  letter-spacing: -0.72px;
+}
