@@ -8,17 +8,17 @@ const poppins = Poppins({
   variable: "--Poppins",
 });
 
-const felixtitling = localFont({
-  src: [
-    {
-      path: "/fonts/felix-titling/felixti.ttf",
-      weight: "400",
-      style: "normal",
-    },
-  ],
-  variable: "--felixtitling",
-  display: "swap",
-});
+// const felixtitling = localFont({
+//   src: [
+//     {
+//       path: "../../public/fonts/felix-titling/felixti.ttf",
+//       weight: "400",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--felixtitling",
+//   display: "swap",
+// });
 
 export const metadata = {
   title: "HM Properties",
@@ -28,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${felixtitling.variable} `}>
+      <body className={`${poppins.variable}`}>
         {children}
       </body>
     </html>

@@ -18,7 +18,7 @@ export default function Home() {
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-82.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center">
               <div className="flex flex-col gap-y-5">
-                <h1 className="text-white font-felixtitling lg:leading-[140%] md:leading-[130%] sm:leading-[120%] leading-[110%]">
+                <h1 className="text-white felixtitling lg:leading-[140%] md:leading-[130%] sm:leading-[120%] leading-[110%]">
                   Find Your Dream Home Today
                 </h1>
                 <p className="font-medium text-white">
@@ -157,7 +157,7 @@ export default function Home() {
             <h2 className="text-black mt-5 lg:leading-[140%] md:leading-[120%] sm:leading-[120%] leading-[120%]">
               Latest Properties on the Market
             </h2>
-            <p className="font-felixtitling text-black">
+            <p className="felixtitling text-black">
               Discover our most recent listings, updated in real-time to help
               you find your perfect home faster.
             </p>
@@ -260,7 +260,7 @@ export default function Home() {
       <section className="trusted-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
-            <p className="font-felixtitling text-black">Why Choose Us</p>
+            <p className="felixtitling text-black">Why Choose Us</p>
             <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
               Your Trusted Real Estate Partner
             </h2>
@@ -351,7 +351,7 @@ export default function Home() {
       <section className="category-section py-100">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
-            <p className="font-felixtitling text-black">Property Categories</p>
+            <p className="felixtitling text-black">Property Categories</p>
             <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
@@ -430,7 +430,7 @@ export default function Home() {
       <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5">
-            <p className="font-felixtitling text-black">Property Categories</p>
+            <p className="felixtitling text-black">Property Categories</p>
             <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
@@ -579,8 +579,8 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center text-center lg:mx-5 md:mx-4 mx-3">
             <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3">
-              <p className="text-black font-felixtitling">NEWSLETTER</p>
-              <h2 className="text-black font-felixtitling">
+              <p className="text-black felixtitling">NEWSLETTER</p>
+              <h2 className="text-black felixtitling">
                 STAY AHEAD OF THE MARKET
               </h2>
               <p className="font-medium leading-4px">
@@ -619,7 +619,7 @@ export default function Home() {
             <div className="lg:w-1/2 w-full">
               <div className="flex flex-col justify-between md:items-start items-center h-full">
                 <div className="footer-logo">
-                  <h3 className="text-black font-felixtitling">
+                  <h3 className="text-black felixtitling">
                     <a href="#">HM Properties</a>
                   </h3>
                 </div>
