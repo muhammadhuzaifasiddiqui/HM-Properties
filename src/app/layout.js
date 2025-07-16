@@ -11,7 +11,7 @@ const poppins = Poppins({
 const felixtitling = localFont({
   src: [
     {
-      path: "../../public/fonts/felix-titling/Felixti.ttf",
+      path: "../../public/fonts/felix-titling/felixti.ttf",
       weight: "400",
       style: "normal",
     },
