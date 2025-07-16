@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
 
       {/* hero section */}
-      <section className="hero-section background-image">
+      <section className="hero-section background-image ">
         <div className="container mx-auto">
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-82.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center">
