@@ -150,9 +150,7 @@ export default function Home() {
       <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
-            <h2 className="text-black">
-              Latest Properties on the Market
-            </h2>
+            <h2 className="text-black">Latest Properties on the Market</h2>
             <p className="font-felixtitling font-medium">
               Discover our most recent listings, updated in real-time to help
               you find your perfect home faster.
@@ -250,7 +248,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
 
       {/* Trusted section */}
       <section className="trusted-section ">
@@ -263,66 +261,60 @@ export default function Home() {
           </div>
 
           <div className="flex lg:flex-row flex-col justify-between gap-y-5 lg:px-5 md:px-4 px-3">
-            <div className="lg:w-1/2 w-full flex flex-wrap justify-center lg:gap-y-5 md:gap-y-4 gap-y-2.5">
-              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="bg-white rounded-full">
-                    <p className="font-medium text-black">
-                      1
-                    </p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Verified Listings Only
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+            <div className="lg:w-1/2 w-full flex flex-wrap justify-center lg:gap-y-5 md:gap-y-4 gap-5">
+              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
+              <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">1</p>
                 </div>
-
-                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="bg-white rounded-full">
-                    <p className="font-medium text-black">2</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Transparent Pricing
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">
+                    Verified Listings Only
+                  </p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
                 </div>
               </div>
 
-              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="bg-white rounded-full">
-                    <p className="font-medium text-black">3</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Expert Local Agents
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+              <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">2</p>
                 </div>
-
-                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="bg-white rounded-full">
-                    <p className="font-medium text-black">4</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">Full Legal Support</p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">Transparent Pricing</p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
                 </div>
               </div>
+              {/* </div> */}
+
+              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
+              <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">3</p>
+                </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">Expert Local Agents</p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
+
+              <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">4</p>
+                </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">Full Legal Support</p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
+              {/* </div> */}
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -356,9 +348,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Property Categories</p>
-            <h2 className="text-black mt-5">
-              Find by Property Type
-            </h2>
+            <h2 className="text-black mt-5">Find by Property Type</h2>
           </div>
 
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 lg:px-5 md:px-4 px-3">
@@ -434,12 +424,12 @@ export default function Home() {
       <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5">
-            <p className="font-felix text-black">Property Categories</p>
+            <p className="font-felix text-black">Testimonials</p>
             <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
-              Find by Property Type
+              What Our Clients Say
             </h2>
           </div>
-          <div className="slider lg:mx-5 md:mx-4 mx-3">
+          <div className="testimonial-slider lg:mx-5 md:mx-4 mx-3">
             <Swiper
               spaceBetween={20}
               slidesPerView={1}
@@ -473,16 +463,18 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <Image
-                        src={"/images/Ellipse 8.png"}
-                        width={100}
-                        height={100}
-                        alt="Ellipse"
-                        unoptimized={true}
-                        className="w-full! h-full! object-cover"
-                      />
+                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                        <Image
+                          src={"/images/Ellipse 8.png"}
+                          width={100}
+                          height={100}
+                          alt="Ellipse"
+                          unoptimized={true}
+                          className="w-full! h-full! object-cover"
+                        />
+                      </div>
                     </div>
-                    <div className="w-2/3 flex flex-col">
+                    <div className="w-full flex flex-col">
                       <p className="text-black font-medium">Mary Arshani</p>
                       <p className="font-medium">CEO</p>
                     </div>
@@ -501,16 +493,18 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <Image
-                        src={"/images/Ellipse 9.png"}
-                        width={100}
-                        height={100}
-                        alt="Ellipse"
-                        unoptimized={true}
-                        className="w-full! h-full! object-cover"
-                      />
+                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                        <Image
+                          src={"/images/Ellipse 9.png"}
+                          width={100}
+                          height={100}
+                          alt="Ellipse"
+                          unoptimized={true}
+                          className="w-full! h-full! object-cover"
+                        />
+                      </div>
                     </div>
-                    <div className="w-2/3 flex flex-col">
+                    <div className="w-full flex flex-col">
                       <p className="text-black font-medium">John Arshani</p>
                       <p className="font-medium">Director</p>
                     </div>
@@ -529,16 +523,18 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <Image
-                        src={"/images/Ellipse 10.png"}
-                        width={100}
-                        height={100}
-                        alt="Ellipse"
-                        unoptimized={true}
-                        className="w-full! h-full! object-cover"
-                      />
+                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                        <Image
+                          src={"/images/Ellipse 10.png"}
+                          width={100}
+                          height={100}
+                          alt="Ellipse"
+                          unoptimized={true}
+                          className="w-full! h-full! object-cover"
+                        />
+                      </div>
                     </div>
-                    <div className="w-2/3 flex flex-col">
+                    <div className="w-full flex flex-col">
                       <p className="text-black font-medium">Mary Arshani</p>
                       <p className="font-medium">Manager</p>
                     </div>
@@ -557,16 +553,18 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <Image
-                        src={"/images/Ellipse 8.png"}
-                        width={100}
-                        height={100}
-                        alt="Ellipse"
-                        unoptimized={true}
-                        className="w-full! h-full! object-cover"
-                      />
+                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                        <Image
+                          src={"/images/Ellipse 8.png"}
+                          width={100}
+                          height={100}
+                          alt="Ellipse"
+                          unoptimized={true}
+                          className="w-full! h-full! object-cover"
+                        />
+                      </div>
                     </div>
-                    <div className="w-2/3 flex flex-col">
+                    <div className="w-full flex flex-col">
                       <p className="text-black font-medium">Mary Arshani</p>
                       <p className="font-medium">Assistant</p>
                     </div>
@@ -583,8 +581,8 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center text-center lg:mx-5 md:mx-4 mx-3">
             <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3">
-              <p className="text-black font-felixtitling">NEWSLETTER</p>
-              <h2 className="text-black font-felixtitling">
+              <p className="text-black font-felix">NEWSLETTER</p>
+              <h2 className="text-black">
                 STAY AHEAD OF THE MARKET
               </h2>
               <p className="font-medium leading-4px">
@@ -593,13 +591,13 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex bg-white rounded-full pt-1.5 pb-1.5 pl-7.5 pr-5">
+            <div className="newsletter-input-shadow flex w-1/3 justify-between bg-white rounded-full pt-1.5 pb-1.5 pl-7.5 pr-5">
               <input
                 className="bg-white font-medium"
                 type="text"
                 placeholder="Subscribe"
               />
-              <div className="aspect-square w-12.5 h-12.5 bg-black p-5 rounded-full">
+              <div className="aspect-square bg-black p-5 rounded-full">
                 <a href="#">
                   <Image
                     src={"/images/Arrow 4.png"}
