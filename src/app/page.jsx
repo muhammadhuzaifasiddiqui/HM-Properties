@@ -250,10 +250,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> 
 
       {/* Trusted section */}
-      <section className="trusted-section">
+      <section className="trusted-section ">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
