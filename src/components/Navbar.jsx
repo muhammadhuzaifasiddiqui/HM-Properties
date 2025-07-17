@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px] py-1.5 pr-2.5 pl-5">
             <div className="Logo">
-              <p className="font-felixtitling text-white font-medium">
+              <p className="felixtitling text-white font-medium">
                 HM Properties
               </p>
             </div>
