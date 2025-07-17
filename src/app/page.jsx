@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* navbar */}
       <Navbar />
-
+ 
       {/* hero section */}
       <section className="hero-section background-image ">
         <div className="container mx-auto">
