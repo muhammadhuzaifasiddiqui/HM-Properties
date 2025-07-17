@@ -270,7 +270,7 @@ export default function Home() {
             <div className="lg:w-1/2 w-full flex flex-wrap justify-center lg:gap-y-5 md:gap-y-4 gap-y-2.5">
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
                 <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="bg-white rounded-full block">
+                  <div className="bg-white rounded-full">
                     <p className="font-medium text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
                       1
                     </p>
@@ -359,14 +359,14 @@ export default function Home() {
       <section className="category-section py-100">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
-            <p className="font-felixtitling text-black">Property Categories</p>
+            <p className="font-felix text-black">Property Categories</p>
             <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
           </div>
 
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 lg:px-5 md:px-4 px-3">
-            <div className="card flex flex-col category round-[35px] bg-lightgray">
+            <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
                   src={"/images/Frame 2087327455.png"}
@@ -378,12 +378,12 @@ export default function Home() {
                 />
               </div>
 
-              <div className="category-content py-7.5 pr-7.5 pl-5.5 text-black font-medium">
+              <div className="category-content p-7.5 text-black font-medium">
                 <h3>Apartments</h3>
               </div>
             </div>
 
-            <div className="card flex flex-col category round-[35px] bg-lightgray">
+            <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
                   src={"/images/Frame 2087327455.png"}
@@ -394,12 +394,12 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content py-7.5 pr-7.5 pl-5.5 text-black font-medium">
+              <div className="category-content p-7.5 text-black font-medium">
                 <h3>Commercial</h3>
               </div>
             </div>
 
-            <div className="card flex flex-col category round-[35px] bg-lightgray">
+            <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
                   src={"/images/Frame 2087327455.png"}
@@ -410,12 +410,12 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content py-7.5 pr-7.5 pl-5.5 text-black font-medium">
+              <div className="category-content p-7.5 text-black font-medium">
                 <h3>Luxury Villas</h3>
               </div>
             </div>
 
-            <div className="card flex flex-col category round-[35px] bg-lightgray">
+            <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
                   src={"/images/Frame 2087327455.png"}
@@ -426,7 +426,7 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content py-7.5 pr-7.5 pl-5.5 text-black font-medium">
+              <div className="category-content p-7.5 text-black font-medium">
                 <h3>Plots</h3>
               </div>
             </div>
@@ -438,7 +438,7 @@ export default function Home() {
       <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5">
-            <p className="font-felixtitling text-black">Property Categories</p>
+            <p className="font-felix text-black">Property Categories</p>
             <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
