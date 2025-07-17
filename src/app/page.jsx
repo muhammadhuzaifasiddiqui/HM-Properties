@@ -18,7 +18,7 @@ export default function Home() {
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-55.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center items-center">
               <div className="flex flex-col">
-                <h1 className="text-white font-felix lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                <h1 className="text-white font-felix">
                   FIND YOUR DREAM HOME TODAY
                 </h1>
                 <p className="font-medium text-white">
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="flex xl:flex-row lg:flex-row flex-col gap-5">
             <div className="lg:w-1/2 w-full flex flex-col">
               <div className="mb-7.5">
-                <h2 className="text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                <h2 className="text-black">
                   Your Trusted Partner in Real Estate
                 </h2>
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <h2 className="text-black mt-5 lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                <h2 className="text-black mt-5">
                   Over a Decade of Real Estate Excellence
                 </h2>
               </div>
@@ -150,7 +150,7 @@ export default function Home() {
       <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
-            <h2 className="text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+            <h2 className="text-black">
               Latest Properties on the Market
             </h2>
             <p className="font-felixtitling font-medium">
@@ -257,7 +257,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
-            <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
+            <h2 className="text-black mt-5">
               Your Trusted Real Estate Partner
             </h2>
           </div>
@@ -267,7 +267,7 @@ export default function Home() {
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
                 <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
                   <div className="bg-white rounded-full">
-                    <p className="font-medium text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                    <p className="font-medium text-black">
                       1
                     </p>
                   </div>
@@ -356,7 +356,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Property Categories</p>
-            <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
+            <h2 className="text-black mt-5">
               Find by Property Type
             </h2>
           </div>
@@ -584,7 +584,7 @@ export default function Home() {
           <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center text-center lg:mx-5 md:mx-4 mx-3">
             <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3">
               <p className="text-black font-felixtitling">NEWSLETTER</p>
-              <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black font-felixtitling">
+              <h2 className="text-black font-felixtitling">
                 STAY AHEAD OF THE MARKET
               </h2>
               <p className="font-medium leading-4px">
