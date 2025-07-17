@@ -11,15 +11,15 @@ export default function Home() {
     <>
       {/* navbar */}
       <Navbar />
- 
+
       {/* hero section */}
-      <section className="hero-section background-image ">
+      <section className="hero-section background-image">
         <div className="container mx-auto">
-          <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-82.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
-            <div className="flex flex-col text-center">
-              <div className="flex flex-col gap-y-5">
-                <h1 className="text-white felixtitling lg:leading-[140%] md:leading-[130%] sm:leading-[120%] leading-[110%]">
-                  Find Your Dream Home Today
+          <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-55.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
+            <div className="flex flex-col text-center items-center">
+              <div className="flex flex-col">
+                <h1 className="text-white font-felix lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                  FIND YOUR DREAM HOME TODAY
                 </h1>
                 <p className="font-medium text-white">
                   Explore the best properties in your city — for living,
@@ -27,12 +27,12 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="py-12.5">
+              <div className="py-12.5 inline-block">
                 <a href="#" className="btn-primary text-white">
                   Book a Free Consultation
                 </a>
               </div>
-              <div className="lg:flex hidden flex-col items-start bg-blur pt-5 pr-7.5 pb-8.5 pl-7.5 rounded-[30px] gap-y-7.5">
+              <div className="w-5/6 lg:flex hidden flex-col items-start bg-blur pt-5 pr-7.5 pb-8.5 pl-7.5 rounded-[30px] gap-y-7.5">
                 <p className="font-medium text-white">Search For Property</p>
                 <div className="flex flex-row w-full justify-between items-center">
                   <a
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="flex xl:flex-row lg:flex-row flex-col gap-5">
             <div className="lg:w-1/2 w-full flex flex-col">
               <div className="mb-7.5">
-                <h2 className="text-black lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%]">
+                <h2 className="text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
                   Your Trusted Partner in Real Estate
                 </h2>
               </div>
@@ -109,30 +109,30 @@ export default function Home() {
                 height={537}
                 alt="image"
                 unoptimized={true}
-                className="w-full! h-full! object-cover"
+                className="w-full! h-full! object-cover rounded-[30px]"
               />
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col gap-y-5 justify-between">
               <div className="flex gap-5 lg:gap-y-0 md:gap-y-0">
-                <div className="image-wrapper">
+                <div className="w-1/2 image-wrapper">
                   <Image
                     src={"/images/image (1).png"}
                     width={267}
                     height={364}
                     alt="image (1)"
                     unoptimized={true}
-                    className="w-full! h-full! object-cover"
+                    className="w-full! h-full! object-cover rounded-[30px]"
                   />
                 </div>
-                <div className="image-wrapper">
+                <div className="w-1/2 image-wrapper">
                   <Image
                     src={"/images/image (2).png"}
                     width={338}
                     height={364}
                     alt="image (2)"
                     unoptimized={true}
-                    className="w-full! h-full! object-cover"
+                    className="w-full! h-full! object-cover rounded-[30px]"
                   />
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <h2 className="text-black mt-5 lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%]">
+                <h2 className="text-black mt-5 lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
                   Over a Decade of Real Estate Excellence
                 </h2>
               </div>
@@ -154,10 +154,10 @@ export default function Home() {
       <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
-            <h2 className="text-black mt-5 lg:leading-[140%] md:leading-[120%] sm:leading-[120%] leading-[120%]">
+            <h2 className="text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
               Latest Properties on the Market
             </h2>
-            <p className="felixtitling text-black">
+            <p className="font-felixtitling font-medium">
               Discover our most recent listings, updated in real-time to help
               you find your perfect home faster.
             </p>
@@ -260,8 +260,8 @@ export default function Home() {
       <section className="trusted-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
-            <p className="felixtitling text-black">Why Choose Us</p>
-            <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
+            <p className="font-felix text-black">Why Choose Us</p>
+            <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
               Your Trusted Real Estate Partner
             </h2>
           </div>
@@ -269,25 +269,31 @@ export default function Home() {
           <div className="flex lg:flex-row flex-col justify-between gap-y-5 lg:px-5 md:px-4 px-3">
             <div className="lg:w-1/2 w-full flex flex-wrap justify-center lg:gap-y-5 md:gap-y-4 gap-y-2.5">
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col bg-card rounded-[30px] justify-center bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="card-number h-10 w-10 rounded-full font-medium text-black px-1.5 py-3.5">
-                    <p>1</p>
+                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                  <div className="bg-white rounded-full block">
+                    <p className="font-medium text-black lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%]">
+                      1
+                    </p>
                   </div>
-                  <div className="card-content font-medium">
-                    <p className="text-black">Verified Listings Only</p>
-                    <p className="mt-2 leading-32px">
+                  <div className="card-content">
+                    <p className="text-black font-medium">
+                      Verified Listings Only
+                    </p>
+                    <p className="mt-2 leading-32px fs-16 font-medium">
                       Lorem ipsum dolor sit amet,
                     </p>
                   </div>
                 </div>
 
-                <div className="card flex flex-col bg-card rounded-[30px] justify-center bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="card-number h-10 w-10 rounded-full font-medium text-black px-1.5 py-3.5">
-                    <p>2</p>
+                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                  <div className="bg-white rounded-full">
+                    <p className="font-medium text-black">2</p>
                   </div>
-                  <div className="card-content font-medium">
-                    <p className="text-black">Transparent Pricing</p>
-                    <p className="mt-2 leading-32px">
+                  <div className="card-content">
+                    <p className="text-black font-medium">
+                      Transparent Pricing
+                    </p>
+                    <p className="mt-2 leading-32px fs-16 font-medium">
                       Lorem ipsum dolor sit amet,
                     </p>
                   </div>
@@ -295,25 +301,27 @@ export default function Home() {
               </div>
 
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col bg-card rounded-[30px] justify-center bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="card-number h-10 w-10 rounded-full font-medium text-black px-1.5 py-3.5">
-                    <p>3</p>
+                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                  <div className="bg-white rounded-full">
+                    <p className="font-medium text-black">3</p>
                   </div>
-                  <div className="card-content font-medium">
-                    <p className="text-black">Expert Local Agents</p>
-                    <p className="mt-2 leading-32px">
+                  <div className="card-content">
+                    <p className="text-black font-medium">
+                      Expert Local Agents
+                    </p>
+                    <p className="mt-2 leading-32px fs-16 font-medium">
                       Lorem ipsum dolor sit amet,
                     </p>
                   </div>
                 </div>
 
-                <div className="card flex flex-col bg-card rounded-[30px] justify-center bg-lightgray lg:p-7 md:6 p-4">
-                  <div className="card-number h-10 w-10 rounded-full font-medium text-black px-1.5 py-3.5">
-                    <p>4</p>
+                <div className="card flex flex-col bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                  <div className="bg-white rounded-full">
+                    <p className="font-medium text-black">4</p>
                   </div>
-                  <div className="card-content font-medium">
-                    <p className="text-black">Full Legal Support</p>
-                    <p className="mt-2 leading-32px">
+                  <div className="card-content">
+                    <p className="text-black font-medium">Full Legal Support</p>
+                    <p className="mt-2 leading-32px fs-16 font-medium">
                       Lorem ipsum dolor sit amet,
                     </p>
                   </div>
@@ -351,8 +359,8 @@ export default function Home() {
       <section className="category-section py-100">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
-            <p className="felixtitling text-black">Property Categories</p>
-            <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
+            <p className="font-felixtitling text-black">Property Categories</p>
+            <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
           </div>
@@ -430,8 +438,8 @@ export default function Home() {
       <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5">
-            <p className="felixtitling text-black">Property Categories</p>
-            <h2 className="lg:leading-[130%] md:leading-[120%] sm:leading-[115%] leading-[110%] text-black mt-5">
+            <p className="font-felixtitling text-black">Property Categories</p>
+            <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black mt-5">
               Find by Property Type
             </h2>
           </div>
@@ -579,8 +587,8 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center text-center lg:mx-5 md:mx-4 mx-3">
             <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3">
-              <p className="text-black felixtitling">NEWSLETTER</p>
-              <h2 className="text-black felixtitling">
+              <p className="text-black font-felixtitling">NEWSLETTER</p>
+              <h2 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black font-felixtitling">
                 STAY AHEAD OF THE MARKET
               </h2>
               <p className="font-medium leading-4px">
@@ -619,8 +627,8 @@ export default function Home() {
             <div className="lg:w-1/2 w-full">
               <div className="flex flex-col justify-between md:items-start items-center h-full">
                 <div className="footer-logo">
-                  <h3 className="text-black felixtitling">
-                    <a href="#">HM Properties</a>
+                  <h3 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black font-medium font-felix">
+                    <a href="#">HM PROPERTIES</a>
                   </h3>
                 </div>
                 <div className="social-icons flex gap-x-5">

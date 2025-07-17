@@ -1,24 +1,24 @@
-import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
+import { Poppins } from "next/font/google";
 import "../styles/globals.css";
 
 const poppins = Poppins({
-  subsets: ["latin"],
+  subsets: ["Poppins"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--Poppins",
 });
 
-// const felixtitling = localFont({
-//   src: [
-//     {
-//       path: "../../public/fonts/felix-titling/felixti.ttf",
-//       weight: "400",
-//       style: "normal",
-//     },
-//   ],
-//   variable: "--felixtitling",
-//   display: "swap",
-// });
+const felixtitling = localFont({
+  src: [
+    {
+      path: "../../public/fonts/felix-titling/FelixTitling.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--felixtitling",
+  display: "swap",
+});
 
 export const metadata = {
   title: "HM Properties",
@@ -28,7 +28,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable}`}>{children}</body>
+      <body className={`${poppins.variable} ${felixtitling.variable} `}>
+        {children}
+      </body>
     </html>
   );
 }

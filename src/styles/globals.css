@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
+/* @font-face {
+  font-family: "FelixTitling";
+  src: url("/public/fonts/felix-titling/FelixTitling.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -10,18 +18,18 @@ a {
   text-decoration: none;
 }
 
-.felixtitling {
-font-family: "Felix Titling";
+.font-felix {
+  font-family: "FelixTitling";
 }
 
 h1 {
   font-size: 85px;
-  font-family: "Felix Titling";
+  font-family: "FelixTitling";
 }
 
 h2 {
   font-size: 50px;
-  font-family: "Felix Titling";
+  font-family: "FelixTitling";
 }
 
 h3 {
@@ -137,7 +145,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
   border-radius: 30px;
 }
 
