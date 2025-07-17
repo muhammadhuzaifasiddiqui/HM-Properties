@@ -25,13 +25,11 @@ a {
 h1 {
   font-size: 85px;
   font-family: "FelixTitling";
-  line-height: 100px;
 }
 
 h2 {
   font-size: 50px;
   font-family: "FelixTitling";
-  line-height: 70px;
 }
 
 h3 {
@@ -92,6 +90,7 @@ img {
 .mx-30 {
   margin: 30px 0;
 }
+
 
 .leading-4px {
   letter-spacing: -0.4px;
@@ -216,6 +215,7 @@ img {
 
 /* Responsive */
 @media screen and (max-width: 1023.97px) {
+
   .btn-primary {
     padding: 14px 28px;
   }
@@ -235,77 +235,61 @@ img {
   body {
     font-size: 19px;
   }
-
   h1 {
     font-size: 70px;
   }
-
   h2 {
     font-size: 45px;
   }
-
   h3 {
     font-size: 23px;
   }
-
   .fs-16 {
     font-size: 15px;
   }
-
   .py-100 {
     padding: 85px 0;
   }
-
   .pb-100 {
     padding-bottom: 85px;
   }
-
   .mt-50 {
     margin-top: 45px;
   }
-
   .mb-50 {
     margin-bottom: 45px;
   }
-
   .mb-30 {
     margin-bottom: 28px;
   }
-
   .mb-20 {
     margin-bottom: 18px;
   }
-
   .my-12 {
     margin: 0 11px;
   }
-
   .my-15 {
     margin: 0 14px;
   }
-
   .mx-30 {
     margin: 28px 0;
   }
-
   .leading-4px {
     letter-spacing: -0.45px;
   }
-
   .leading-8px {
     letter-spacing: -0.85px;
   }
-
   .leading-32px {
     letter-spacing: -0.4px;
   }
-
   .leading-72px {
     letter-spacing: -0.8px;
   }
 }
 
 @media screen and (max-width: 991.97px) {
+
   .btn-primary {
     padding: 13px 26px;
   }
@@ -325,77 +309,61 @@ img {
   body {
     font-size: 18px;
   }
-
   h1 {
     font-size: 60px;
   }
-
   h2 {
     font-size: 43px;
   }
-
   h3 {
     font-size: 22px;
   }
-
   .fs-16 {
     font-size: 15px;
   }
-
   .py-100 {
     padding: 70px 0;
   }
-
   .pb-100 {
     padding-bottom: 70px;
   }
-
   .mt-50 {
     margin-top: 43px;
   }
-
   .mb-50 {
     margin-bottom: 43px;
   }
-
   .mb-30 {
     margin-bottom: 27px;
   }
-
   .mb-20 {
     margin-bottom: 17px;
   }
-
   .my-12 {
     margin: 0 10px;
   }
-
   .my-15 {
     margin: 0 13px;
   }
-
   .mx-30 {
     margin: 27px 0;
   }
-
   .leading-4px {
     letter-spacing: -0.5px;
   }
-
   .leading-8px {
     letter-spacing: -0.9px;
   }
-
   .leading-32px {
     letter-spacing: -0.5px;
   }
-
   .leading-72px {
     letter-spacing: -0.9px;
   }
 }
 
 @media screen and (max-width: 767.97px) {
+
   .btn-primary {
     padding: 12px 24px;
   }
@@ -415,71 +383,54 @@ img {
   body {
     font-size: 18px;
   }
-
   h1 {
     font-size: 50px;
   }
-
   h2 {
     font-size: 40px;
   }
-
   h3 {
     font-size: 21px;
   }
-
   .fs-16 {
     font-size: 14px;
   }
-
   .py-100 {
     padding: 60px 0;
   }
-
   .pb-100 {
     padding-bottom: 60px;
   }
-
   .mt-50 {
     margin-top: 40px;
   }
-
   .mb-50 {
     margin-bottom: 40px;
   }
-
   .mb-30 {
     margin-bottom: 26px;
   }
-
   .mb-20 {
     margin-bottom: 16px;
   }
-
   .my-12 {
     margin: 0 9px;
   }
-
   .my-15 {
     margin: 0 12px;
   }
-
   .mx-30 {
     margin: 26px 0;
   }
-
   .leading-4px {
     letter-spacing: -0.55px;
   }
-
   .leading-8px {
     letter-spacing: -0.95px;
   }
-
   .leading-32px {
     letter-spacing: -0.6px;
   }
-
   .leading-72px {
     letter-spacing: -1.1px;
   }
@@ -511,7 +462,7 @@ img {
   }
 
   h2 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   h3 {

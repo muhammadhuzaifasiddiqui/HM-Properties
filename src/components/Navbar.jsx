@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <nav className="navbar absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
+      {/* <nav className="navbar absolute lg:top-2.5 md:top-2.5 sm:top-7.5 top-7.5 w-full lg:p-7.5 md:p-7.5 sm:px-5 px-5 left-0">
         <div className="container mx-auto relative left-0">
           <div className="bg-navbar flex justify-between items-center rounded-[30px] py-1.5 pr-2.5 pl-5">
             <div className="Logo-wrapper">
@@ -79,7 +79,7 @@ const Navbar = () => {
                   height: isOpen ? "auto" : 0,
                 }}
                 exit={{ opacity: 0, height: 0 }}
-                className="lg:hidden absolute top-16 left-0 right-0 z-10 overflow-hidden bg-[#fff3] text-white font-medium"
+                className="lg:hidden absolute top-16 left-0 right-0 z-10 overflow-hidden bg-[#9e9a9ac4] text-white font-medium"
               >
                 <ul className="flex flex-col items-start p-6 rounded-md overflow-hidden">
                   <li className="my-4">
@@ -132,7 +132,7 @@ const Navbar = () => {
             )}
           </AnimatePresence>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };
