@@ -25,11 +25,13 @@ a {
 h1 {
   font-size: 85px;
   font-family: "FelixTitling";
+  line-height: 100px;
 }
 
 h2 {
   font-size: 50px;
   font-family: "FelixTitling";
+  line-height: 70px;
 }
 
 h3 {

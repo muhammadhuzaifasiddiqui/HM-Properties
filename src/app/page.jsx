@@ -26,7 +26,6 @@ export default function Home() {
                   investing, or vacation.
                 </p>
               </div>
-
               <div className="py-12.5 inline-block">
                 <a href="#" className="btn-primary text-white">
                   Book a Free Consultation
@@ -49,7 +48,6 @@ export default function Home() {
                       className="w-full! h-full! object-cover"
                     />
                   </a>
-
                   <a
                     href="#"
                     className="flex gap-x-2.5 btn-secondary text-white items-center"
@@ -64,7 +62,6 @@ export default function Home() {
                       className="w-full! h-full! object-cover"
                     />
                   </a>
-
                   <a
                     href="#"
                     className="flex gap-x-2.5 btn-secondary text-white items-center"
@@ -79,7 +76,6 @@ export default function Home() {
                       className="w-full! h-full! object-cover"
                     />
                   </a>
-
                   <a
                     href="#"
                     className="flex bg-white gap-x-2.5 btn-secondary text-black items-center"
@@ -195,7 +191,7 @@ export default function Home() {
                   height={600}
                   alt="slide"
                   unoptimized={true}
-                  className="w-full! h-full! object-cover rounded-[35px]"
+                  className="w-full! h-full! object-cover rounded-[30px]"
                 />
                 <div className="flex flex-col gap-y-1.5 absolute bottom-0 slider-content lg:p-5 p-7">
                   <p className="text-white font-semibold">Commerical Space</p>
@@ -214,7 +210,7 @@ export default function Home() {
                   height={604}
                   alt="slide"
                   unoptimized={true}
-                  className="w-full! h-full! object-cover rounded-[35px]"
+                  className="w-full! h-full! object-cover rounded-[30px]"
                 />
                 <div className="flex flex-col gap-y-1.5 absolute bottom-0 slider-content-active">
                   <p className="text-white font-semibold">
@@ -240,7 +236,7 @@ export default function Home() {
                   height={600}
                   alt="slide"
                   unoptimized={true}
-                  className="w-full! h-full! object-cover rounded-[35px]"
+                  className="w-full! h-full! object-cover rounded-[30px]"
                 />
                 <div className="flex flex-col gap-y-1.5 bottom-0 absolute slider-content lg:p-5 p-7">
                   <p className="text-white font-semibold">
