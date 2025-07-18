@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       {/* navbar */}
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* hero section */}
-      {/* <section className="hero-section background-image">
+      <section className="hero-section background-image">
         <div className="container mx-auto">
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-55.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center items-center">
@@ -87,10 +87,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* partner section */}
-      {/* <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
+      <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
         <div className="container mx-auto">
           <div className="flex xl:flex-row lg:flex-row flex-col gap-5">
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -144,7 +144,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* properties section */}
       <section className="properties-section">
@@ -253,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* Trusted section */}
-      {/* <section className="trusted-section ">
+      <section className="trusted-section ">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
@@ -262,7 +262,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3">
+          <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3 h-screen">
             <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
@@ -320,7 +320,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-               </div>
+              </div>
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -347,7 +347,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>  */}
+      </section>
 
       {/* Category section */}
       <section className="category-section py-100">
@@ -431,7 +431,7 @@ export default function Home() {
       {/* Testimonial section */}
       <section className="testimonial-section">
         <div className="container mx-auto">
-          <div className="text-center mb-12.5">
+          <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Testimonials</p>
             <h2 className=" text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
               What Our Clients Say
@@ -450,18 +450,23 @@ export default function Home() {
                 // when window width is >= 768px
                 768: {
                   slidesPerView: 2,
-                  spaceBetween: 16,
+                  spaceBetween: 15,
                 },
                 // when window width is >= 1024px
                 1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 18,
+                },
+                // when window width is >= 1280px
+                1280: {
                   slidesPerView: 4,
                   spaceBetween: 20,
                 },
               }}
               className="mySwiper"
             >
-              <SwiperSlide>
-                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] p-7.5">
+              <SwiperSlide className="p-0.5">
+                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] xl:p-7.5 lg:p-6.5 md:p-6 sm:p-5.5 p-5">
                   <div className="mb-10.5">
                     <p className="font-medium">
                       Lorem ipsum dolor sit amet, adipiscing elit, Lorem ipsum
@@ -471,7 +476,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                      <div className="testimonial-image-wraper h-full w-full">
                         <Image
                           src={"/images/Ellipse 8.png"}
                           width={100}
@@ -490,8 +495,8 @@ export default function Home() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] p-7.5">
+              <SwiperSlide className="p-0.5">
+                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] xl:p-7.5 lg:p-6.5 md:p-6 sm:p-5.5 p-5">
                   <div className="mb-10.5">
                     <p className="font-medium">
                       Lorem ipsum dolor sit amet, adipiscing elit, Lorem ipsum
@@ -501,7 +506,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                      <div className="testimonial-image-wraper h-full w-full">
                         <Image
                           src={"/images/Ellipse 9.png"}
                           width={100}
@@ -520,8 +525,8 @@ export default function Home() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] p-7.5">
+              <SwiperSlide className="p-0.5">
+                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] xl:p-7.5 lg:p-6.5 md:p-6 sm:p-5.5 p-5">
                   <div className="mb-10.5">
                     <p className="font-medium">
                       Lorem ipsum dolor sit amet, adipiscing elit, Lorem ipsum
@@ -531,7 +536,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                      <div className="testimonial-image-wraper h-full w-full">
                         <Image
                           src={"/images/Ellipse 10.png"}
                           width={100}
@@ -550,8 +555,8 @@ export default function Home() {
                 </div>
               </SwiperSlide>
 
-              <SwiperSlide>
-                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] p-7.5">
+              <SwiperSlide className="p-0.5">
+                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] xl:p-7.5 lg:p-6.5 md:p-6 sm:p-5.5 p-5">
                   <div className="mb-10.5">
                     <p className="font-medium">
                       Lorem ipsum dolor sit amet, adipiscing elit, Lorem ipsum
@@ -561,7 +566,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-row gap-x-2.5 items-center">
                     <div className="w-1/3 aspect-square">
-                      <div className="testimonial-image-wraper h-24.5 w-24.5">
+                      <div className="testimonial-image-wraper h-full w-full">
                         <Image
                           src={"/images/Ellipse 8.png"}
                           width={100}
@@ -585,10 +590,10 @@ export default function Home() {
       </section>
 
       {/* NewsLetter section */}
-      {/* <section className="testimonial-section py-100">
+      <section className="testimonial-section py-100">
         <div className="container mx-auto">
-          <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center text-center lg:mx-5 md:mx-4 mx-3">
-            <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3">
+          <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center justify-center lg:mx-5 md:mx-4 mx-3">
+            <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3 text-center">
               <p className="text-black font-felix">NEWSLETTER</p>
               <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
                 STAY AHEAD OF THE MARKET
@@ -599,9 +604,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="newsletter-input-shadow flex w-1/3 justify-between bg-white rounded-full pt-1.5 pb-1.5 pl-7.5 pr-5">
+            <div className="newsletter-input-shadow flex flex-row lg:w-1/3 md:w-2/5 sm:w-1/2 justify-between bg-white rounded-full pt-1.5 pb-1.5 pl-7.5 pr-5">
               <input
-                className="bg-white font-medium"
+                className="bg-white font-medium w-full"
                 type="text"
                 placeholder="Subscribe"
               />
@@ -620,14 +625,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Footer section */}
       <footer className="footer-section">
         <div className="container mx-auto">
           <div className="flex lg:flex-row flex-col pb-100 gap-y-5 lg:mx-5 md:mx-4 mx-3">
             <div className="lg:w-1/2 w-full">
-              <div className="flex flex-col justify-between md:items-start items-center h-full">
+              <div className="flex flex-col justify-between md:items-start items-center h-full gap-y-3">
                 <div className="footer-logo">
                   <h3 className="lg:leading-[120%] md:leading-[117%] sm:leading-[114%] leading-[110%] text-black font-medium font-felix">
                     <a href="#">HM PROPERTIES</a>
