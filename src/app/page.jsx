@@ -147,10 +147,12 @@ export default function Home() {
       </section> */}
 
       {/* properties section */}
-      {/* <section className="properties-section">
+      <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
-            <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">Latest Properties on the Market</h2>
+            <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
+              Latest Properties on the Market
+            </h2>
             <p className="font-felixtitling font-medium">
               Discover our most recent listings, updated in real-time to help
               you find your perfect home faster.
@@ -248,10 +250,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Trusted section */}
-      <section className="trusted-section ">
+      {/* <section className="trusted-section ">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
@@ -262,7 +264,7 @@ export default function Home() {
 
           <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3">
             <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
-              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
+              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">1</p>
@@ -290,9 +292,9 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              {/* </div> */}
+              </div>
 
-              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
+              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">3</p>
@@ -318,7 +320,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              {/* </div> */}
+               </div>
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -345,14 +347,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section>  */}
 
       {/* Category section */}
       <section className="category-section py-100">
         <div className="container mx-auto">
           <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Property Categories</p>
-            <h2 className="text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">Find by Property Type</h2>
+            <h2 className="text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
+              Find by Property Type
+            </h2>
           </div>
 
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 lg:px-5 md:px-4 px-3">
@@ -425,7 +429,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial section */}
-      {/* <section className="testimonial-section">
+      <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center mb-12.5">
             <p className="font-felix text-black">Testimonials</p>
@@ -578,7 +582,7 @@ export default function Home() {
             </Swiper>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* NewsLetter section */}
       {/* <section className="testimonial-section py-100">
@@ -619,7 +623,7 @@ export default function Home() {
       </section> */}
 
       {/* Footer section */}
-      {/* <footer className="footer-section">
+      <footer className="footer-section">
         <div className="container mx-auto">
           <div className="flex lg:flex-row flex-col pb-100 gap-y-5 lg:mx-5 md:mx-4 mx-3">
             <div className="lg:w-1/2 w-full">
@@ -736,7 +740,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </>
   );
 }
