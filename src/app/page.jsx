@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       {/* navbar */}
-      {/* <Navbar /> */}
+   /
 
       {/* hero section */}
-      {/* <section className="hero-section background-image">
+      <section className="hero-section background-image">
         <div className="container mx-auto">
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-55.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center items-center">
@@ -87,10 +87,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* partner section */}
-      {/* <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
+      <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
         <div className="container mx-auto">
           <div className="flex xl:flex-row lg:flex-row flex-col lg:gap-5 md:gap-4 sm:gap-3.5 gap-3">
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -144,10 +144,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* properties section */}
-      {/* <section className="properties-section">
+      <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
             <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Trusted section */}
       <section className="trusted-section ">
@@ -426,7 +426,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial section */}
-      {/* <section className="testimonial-section">
+      <section className="testimonial-section">
         <div className="container mx-auto">
           <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Testimonials</p>
@@ -584,10 +584,10 @@ export default function Home() {
             </Swiper>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* NewsLetter section */}
-      {/* <section className="newsletter-section py-100">
+      <section className="newsletter-section py-100">
         <div className="container mx-auto">
           <div className="flex flex-col lg:py-7.5 md:py-6.5 sm:py-5 py-4 bg-lightgray rounded-[30px] items-center justify-center lg:mx-5 md:mx-4 mx-3">
             <div className="flex flex-col lg:gap-y-5 md:gap-y-4 sm:gap-y-3.5 gap-y-3 lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3 text-center">
@@ -622,10 +622,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Footer section */}
-      {/* <footer className="footer-section">
+      <footer className="footer-section">
         <div className="container mx-auto">
           <div className="flex lg:flex-row flex-col pb-100 gap-y-5 lg:mx-5 md:mx-4 mx-3">
             <div className="lg:w-1/2 w-full">
@@ -742,7 +742,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </>
   );
 }
