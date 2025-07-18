@@ -255,72 +255,70 @@ export default function Home() {
       {/* Trusted section */}
       <section className="trusted-section ">
         <div className="container mx-auto">
-          <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
+          <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 sm:px-3.5 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
             <h2 className="text-black lg:mt-5 md:mt-4 sm:mt-3 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
               Your Trusted Real Estate Partner
             </h2>
           </div>
 
-          <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3 h-screen">
-            <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
-              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
-                  <div className="bg-white rounded-full card-number">
-                    <p className="font-medium text-black">1</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Verified Listings Only
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+          <div className="flex lg:flex-row flex-col justify-between items-center lg:gap-5 md:gap-4 sm:gap-3.5 gap-3 lg:px-5 md:px-4 sm:px-3.5 px-3">
+            <div className="lg:w-1/2 w-full grid sm:grid-cols-2 grid-cols-1 lg:gap-5 md:gap-4 sm:gap-3.5 gap-3">
+              <div className="card flex flex-col items-start bg-card rounded-[30px] bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4 lg:gap-y-17.5 md:gap-y-15 sm:gap-y-13 gap-y-9">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">1</p>
                 </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">
+                    Verified Listings Only
+                  </p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
 
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
-                  <div className="bg-white rounded-full card-number">
-                    <p className="font-medium text-black">2</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Transparent Pricing
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+              <div className="card flex flex-col items-start bg-card rounded-[30px] bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4 lg:gap-y-17.5 md:gap-y-15 sm:gap-y-13 gap-y-9">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">2</p>
                 </div>
-              {/* </div> */}
+                <div className="card-content">
+                  <p className="text-black font-medium">
+                    Transparent Pricing
+                  </p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
 
-              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
-                  <div className="bg-white rounded-full card-number">
-                    <p className="font-medium text-black">3</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">
-                      Expert Local Agents
-                    </p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+              <div className="card flex flex-col items-start bg-card rounded-[30px] bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4 lg:gap-y-17.5 md:gap-y-15 sm:gap-y-13 gap-y-9">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">3</p>
                 </div>
+                <div className="card-content">
+                  <p className="text-black font-medium">
+                    Expert Local Agents
+                  </p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
 
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
-                  <div className="bg-white rounded-full card-number">
-                    <p className="font-medium text-black">4</p>
-                  </div>
-                  <div className="card-content">
-                    <p className="text-black font-medium">Full Legal Support</p>
-                    <p className="mt-2 leading-32px fs-16 font-medium">
-                      Lorem ipsum dolor sit amet,
-                    </p>
-                  </div>
+              <div className="card flex flex-col items-start bg-card rounded-[30px] bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4 lg:gap-y-17.5 md:gap-y-15 sm:gap-y-13 gap-y-9">
+                <div className="bg-white rounded-full card-number">
+                  <p className="font-medium text-black">4</p>
                 </div>
-              {/* </div> */}
+                <div className="card-content">
+                  <p className="text-black font-medium">
+                    Full Legal Support
+                  </p>
+                  <p className="mt-2 leading-32px fs-16 font-medium">
+                    Lorem ipsum dolor sit amet,
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col">
@@ -349,7 +347,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Category section */}
       <section className="category-section py-100">
         <div className="container mx-auto">
           <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
@@ -359,7 +356,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-5 md:gap-4 sm:gap-3.5 gap-3 lg:px-5 md:px-4 px-3">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-5 md:gap-4 sm:gap-3.5 gap-3 lg:px-5 md:px-4 px-3">
             <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
