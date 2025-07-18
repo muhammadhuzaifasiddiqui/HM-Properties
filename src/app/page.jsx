@@ -264,7 +264,7 @@ export default function Home() {
 
           <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3 h-screen">
             <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
-              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
+              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">1</p>
@@ -292,9 +292,9 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
 
-              <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
+              {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">3</p>
@@ -320,7 +320,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
 
             <div className="lg:w-1/2 w-full flex flex-col">
