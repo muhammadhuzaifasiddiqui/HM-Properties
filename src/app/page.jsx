@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       {/* navbar */}
-   /
+      <Navbar />
 
       {/* hero section */}
       <section className="hero-section background-image">
