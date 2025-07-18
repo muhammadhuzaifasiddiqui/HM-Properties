@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       {/* navbar */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* hero section */}
-      <section className="hero-section background-image">
+      {/* <section className="hero-section background-image">
         <div className="container mx-auto">
           <div className="w-5/6 lg:w-2/3 md:w-3/4 sm:w-4/5 mx-auto pt-37.5 lg:pt-55.5 md:pt-62.5 sm:pt-50.5 lg:pb-12.5 md:pb-5 sm:pb-2.5 pb-0 h-full">
             <div className="flex flex-col text-center items-center">
@@ -87,14 +87,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* partner section */}
-      <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
+      {/* <section className="partner-section px-3 md:px-4 lg:px-5 py-100 lg:m-0 md:m-0 m-2.5">
         <div className="container mx-auto">
-          <div className="flex xl:flex-row lg:flex-row flex-col gap-5">
+          <div className="flex xl:flex-row lg:flex-row flex-col lg:gap-5 md:gap-4 sm:gap-3.5 gap-3">
             <div className="lg:w-1/2 w-full flex flex-col">
-              <div className="mb-7.5">
+              <div className="lg:mb-7.5 md:mb-6.5 sm:mb-5 mb-4">
                 <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
                   Your Trusted Partner in Real Estate
                 </h2>
@@ -109,8 +109,8 @@ export default function Home() {
               />
             </div>
 
-            <div className="lg:w-1/2 w-full flex flex-col gap-y-5 justify-between">
-              <div className="flex gap-5 lg:gap-y-0 md:gap-y-0">
+            <div className="lg:w-1/2 w-full flex flex-col lg:gap-y-5 md:gap-y-4 sm:gap-y-3.5 gap-y-3 justify-between">
+              <div className="flex lg:gap-5 md:gap-4 sm:gap:3.5 gap-3 lg:gap-y-0 md:gap-y-0">
                 <div className="w-1/2 image-wrapper">
                   <Image
                     src={"/images/image (1).png"}
@@ -137,17 +137,17 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <h2 className="text-black mt-5">
+                <h2 className="text-black lg:mt-5 md:mt-4 sm:mt-3.5 mt-3 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
                   Over a Decade of Real Estate Excellence
                 </h2>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* properties section */}
-      <section className="properties-section">
+      {/* <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
             <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
@@ -159,7 +159,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex slider-navigation gap-x-5 justify-center mb-12.5 lg:px-5 md:px-4 px-3">
+          <div className="flex slider-navigation gap-x-5 justify-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
             <div className="left-navigation bg-lightgray p-5 rounded-full">
               <Image
                 src={"/images/Arrow 2.png"}
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="slider flex lg:flex-row flex-col gap-5 lg:px-0 md:px-0 px-2.5">
+          <div className="slider flex lg:flex-row flex-col lg:gap-5 md:gap-4 sm:gap-3.5 gap-3 lg:px-0 md:px-0 px-2.5">
             <div className="xl:w-1/4  md:1/2  w-full flex-col relative">
               <div className="img-wrapper h-600 w-full">
                 <Image
@@ -193,7 +193,7 @@ export default function Home() {
                   unoptimized={true}
                   className="w-full! h-full! object-cover rounded-[30px]"
                 />
-                <div className="flex flex-col gap-y-1.5 absolute bottom-0 slider-content lg:p-5 p-7">
+                <div className="flex flex-col gap-y-1.5 absolute bottom-0 slider-content lg:p-7 md:p-6 sm:p-5 p-4">
                   <p className="text-white font-semibold">Commerical Space</p>
                   <p className="fs-16 font-medium">
                     Lorem ipsum dolor sit amet, consectetur
@@ -238,7 +238,7 @@ export default function Home() {
                   unoptimized={true}
                   className="w-full! h-full! object-cover rounded-[30px]"
                 />
-                <div className="flex flex-col gap-y-1.5 bottom-0 absolute slider-content lg:p-5 p-7">
+                <div className="flex flex-col gap-y-1.5 bottom-0 absolute slider-content lg:p-7 md:p-6 sm:p-5 p-4">
                   <p className="text-white font-semibold">
                     Interior Space and design
                   </p>
@@ -250,14 +250,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Trusted section */}
       <section className="trusted-section ">
         <div className="container mx-auto">
-          <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
+          <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Why Choose Us</p>
-            <h2 className="text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
+            <h2 className="text-black lg:mt-5 md:mt-4 sm:mt-3 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
               Your Trusted Real Estate Partner
             </h2>
           </div>
@@ -265,7 +265,7 @@ export default function Home() {
           <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3 h-screen">
             <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">1</p>
                   </div>
@@ -279,7 +279,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">2</p>
                   </div>
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
 
               <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5">
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">3</p>
                   </div>
@@ -309,7 +309,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
+                <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:p-6 sm:p-5 p-4">
                   <div className="bg-white rounded-full card-number">
                     <p className="font-medium text-black">4</p>
                   </div>
@@ -352,14 +352,14 @@ export default function Home() {
       {/* Category section */}
       <section className="category-section py-100">
         <div className="container mx-auto">
-          <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
+          <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Property Categories</p>
-            <h2 className="text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
+            <h2 className="text-black lg:mt-5 md:mt-4 sm:mt-3 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
               Find by Property Type
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 lg:px-5 md:px-4 px-3">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-5 md:gap-4 sm:gap-3.5 gap-3 lg:px-5 md:px-4 px-3">
             <div className="card flex flex-col category rounded-[35px] bg-lightgray">
               <div className="img-wrapper w-full aspect-square">
                 <Image
@@ -372,7 +372,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="category-content p-7.5 text-black font-medium">
+              <div className="category-content lg:p-7.5 md:p-6.5 sm:p-5 p-4 text-black font-medium">
                 <h3>Apartments</h3>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content p-7.5 text-black font-medium">
+              <div className="category-content lg:p-7.5 md:p-6.5 sm:p-5 p-4 text-black font-medium">
                 <h3>Commercial</h3>
               </div>
             </div>
@@ -404,7 +404,7 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content p-7.5 text-black font-medium">
+              <div className="category-content lg:p-7.5 md:p-6.5 sm:p-5 p-4 text-black font-medium">
                 <h3>Luxury Villas</h3>
               </div>
             </div>
@@ -420,7 +420,7 @@ export default function Home() {
                   className="w-full! h-full! object-cover"
                 />
               </div>
-              <div className="category-content p-7.5 text-black font-medium">
+              <div className="category-content lg:p-7.5 md:p-6.5 sm:p-5 p-4 text-black font-medium">
                 <h3>Plots</h3>
               </div>
             </div>
@@ -429,11 +429,11 @@ export default function Home() {
       </section>
 
       {/* Testimonial section */}
-      <section className="testimonial-section">
+      {/* <section className="testimonial-section">
         <div className="container mx-auto">
-          <div className="text-center mb-12.5 lg:px-5 md:px-4 px-3">
+          <div className="text-center lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3">
             <p className="font-felix text-black">Testimonials</p>
-            <h2 className=" text-black mt-5 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
+            <h2 className=" text-black  lg:mt-5 md:mt-4 sm:mt-3 lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
               What Our Clients Say
             </h2>
           </div>
@@ -466,7 +466,7 @@ export default function Home() {
               className="mySwiper"
             >
               <SwiperSlide className="p-0.5">
-                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] xl:p-7.5 lg:p-6.5 md:p-6 sm:p-5.5 p-5">
+                <div className="card flex flex-col shadow-[0px_0px_5px_0px_rgba(0,0,0,0.25)] bg-lightgray rounded-[35px] lg:p-7.5 md:p-6.5 sm:p-5 p-4">
                   <div className="mb-10.5">
                     <p className="font-medium">
                       Lorem ipsum dolor sit amet, adipiscing elit, Lorem ipsum
@@ -587,13 +587,13 @@ export default function Home() {
             </Swiper>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* NewsLetter section */}
-      <section className="testimonial-section py-100">
+      {/* <section className="newsletter-section py-100">
         <div className="container mx-auto">
-          <div className="flex flex-col py-7.5 bg-lightgray rounded-[30px] items-center justify-center lg:mx-5 md:mx-4 mx-3">
-            <div className="flex flex-col gap-y-5 mb-12.5 lg:px-5 md:px-4 px-3 text-center">
+          <div className="flex flex-col lg:py-7.5 md:py-6.5 sm:py-5 py-4 bg-lightgray rounded-[30px] items-center justify-center lg:mx-5 md:mx-4 mx-3">
+            <div className="flex flex-col lg:gap-y-5 md:gap-y-4 sm:gap-y-3.5 gap-y-3 lg:mb-12.5 md:mb-9 sm:mb-7 mb-5 lg:px-5 md:px-4 px-3 text-center">
               <p className="text-black font-felix">NEWSLETTER</p>
               <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">
                 STAY AHEAD OF THE MARKET
@@ -625,10 +625,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer section */}
-      <footer className="footer-section">
+      {/* <footer className="footer-section">
         <div className="container mx-auto">
           <div className="flex lg:flex-row flex-col pb-100 gap-y-5 lg:mx-5 md:mx-4 mx-3">
             <div className="lg:w-1/2 w-full">
@@ -745,7 +745,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }
