@@ -147,7 +147,7 @@ export default function Home() {
       </section> */}
 
       {/* properties section */}
-      <section className="properties-section">
+      {/* <section className="properties-section">
         <div className="container mx-auto pb-100">
           <div className="text-center mb-5 lg:px-5 md:px-4 px-3">
             <h2 className="text-black lg:leading-17.5 md:leading-15 sm:leading-12 leading-9">Latest Properties on the Market</h2>
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Trusted section */}
       <section className="trusted-section ">
@@ -260,8 +260,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex lg:flex-row flex-col justify-between gap-y-5 lg:px-5 md:px-4 px-3">
-            <div className="lg:w-1/2 w-full flex flex-wrap justify-center lg:gap-y-5 md:gap-y-4 gap-5">
+          <div className="flex lg:flex-row flex-col items-center gap-y-5 lg:px-5 md:px-4 px-3">
+            <div className="grid gap-4 grid-rows-[repeat(auto-fit,_minmax(200px,_1fr))]">
               {/* <div className="flex sm:flex-row flex-col w-full card-wrapper justify-center lg:gap-5 md:gap-4 gap-2.5"> */}
                 <div className="card flex flex-col items-start bg-card rounded-[30px] justify-between bg-lightgray lg:p-7 md:6 p-4">
                   <div className="bg-white rounded-full card-number">
